@@ -176,7 +176,8 @@ bindsym $mod+r mode "resize"
 
 # gaps
 for_window [class=".*"] border none
-gaps inner 4
+gaps inner 10
+gaps outer 20
 
 # Plasma compatibility improvements
 for_window [window_role="pop-up"] floating enable
@@ -197,3 +198,5 @@ for_window [class="(?i)*nextcloud*"] floating disable
 for_window [class="plasmashell" window_type="notification"] border none, move right 700px, move down 450px
 no_focus [class="plasmashell" window_type="notification"]
 
+# Set background 
+exec --no-startup-id feh --bg-scale --randomize ~/Wallpapers/*
