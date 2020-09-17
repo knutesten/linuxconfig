@@ -3,9 +3,12 @@
 # Create .config folder if it does not exist
 mkdir -p $HOME/.config
 
-# Install i3 config
-ln -sf $(pwd)/config/i3/config $HOME/.config/i3/config
+# Disable plasma spash screen
+sudo mv /usr/bin/ksplashqml /usr/bin/ksplashqml.old
 
 # Install and enable norwegian osx keyboard layout
 sudo cp keyboard/no /usr/share/X11/xkb/symbols/no
+
+# Install i3 config
+ln -sf $(pwd)/config/i3/config $HOME/.config/i3/config
 
