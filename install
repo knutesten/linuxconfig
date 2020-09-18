@@ -4,7 +4,9 @@
 mkdir -p $HOME/.config
 
 # Disable plasma spash screen
-sudo mv /usr/bin/ksplashqml /usr/bin/ksplashqml.old
+if [ -f /usr/bin/ksplashqml ]; then
+  sudo mv /usr/bin/ksplashqml /usr/bin/ksplashqml.old
+fi
 
 # Install and enable norwegian osx keyboard layout
 sudo cp keyboard/no /usr/share/X11/xkb/symbols/no
