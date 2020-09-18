@@ -22,3 +22,5 @@ ln -sf $(pwd)/config/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.y
 # Install xresource settings
 ln -sf $(pwd)/Xresources $HOME/.Xresources
 
+# Install xresource settings
+ln -sf $(pwd)/spacemacs $HOME/.spacemacs
