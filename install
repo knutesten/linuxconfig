@@ -22,5 +22,8 @@ ln -sf $(pwd)/config/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.y
 # Install xresource settings
 ln -sf $(pwd)/Xresources $HOME/.Xresources
 
-# Install xresource settings
+# Install xinitrc settings
+ln -sf $(pwd)/xinitrc $HOME/.xinitrc
+
+# Install emacs settings
 ln -sf $(pwd)/spacemacs $HOME/.spacemacs
