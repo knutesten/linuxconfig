@@ -267,11 +267,11 @@ xkb_symbols "mac_custom" {
     // keyboard and a very simple Norwegian keyboard.
 
     include "latin(type4)"
-    name[Group1]= "Norwegian (Macintosh)";
+    name[Group1]= "Norwegian (Macintosh Custom)";
 
     key <TLDE>	{ [ apostrophe,    section     ]	};
     key <AE03>	{ [          3, numbersign,     sterling,     sterling ]	};
-    key <AE04>	{ [          4,   currency,       dollar,       dollar ]	};
+    key <AE04>	{ [          4,     dollar,       dollar,       dollar ]	};
     key <AE06>	{ [          6,  ampersand, threequarters, fiveeighths ]	};
     key <AE07>	{ [          7,      slash,          bar,    backslash ]	};
     key <AE08>	{ [          8,  parenleft,  bracketleft,    braceleft ]	};
