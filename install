@@ -27,3 +27,6 @@ ln -sf $(pwd)/xinitrc $HOME/.xinitrc
 
 # Install emacs settings
 ln -sf $(pwd)/spacemacs $HOME/.spacemacs
+
+# Install git settings
+ln -sf $(pwd)/gitconfig $HOME/.gitconfig

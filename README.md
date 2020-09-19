@@ -7,9 +7,6 @@
 - plasma
 - i3-gaps
 - dmenu
-
-## TODO
-- Git 
-- emacs
-
+- tty-roboto
+- Source code pro?
 
