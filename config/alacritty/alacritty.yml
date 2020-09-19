@@ -47,3 +47,7 @@ window:
         x: 30
         y: 30
 
+key_bindings:
+  - { key: V,      mods: Super, action: Paste            }
+  - { key: C,      mods: Super, action: Copy             }
+
