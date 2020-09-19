@@ -30,3 +30,11 @@ ln -sf $(pwd)/spacemacs $HOME/.spacemacs
 
 # Install git settings
 ln -sf $(pwd)/gitconfig $HOME/.gitconfig
+
+if [ ! -d $HOME/.sdkman ]; then
+  curl -s "https://get.sdkman.io" | bash
+fi
+
+if [ ! -d $HOME/.oh-my-zsh ]; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
