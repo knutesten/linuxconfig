@@ -6,6 +6,8 @@
 - vim
 - zsh
 - i3-gaps
+- i3lock
+- i3status
 - dmenu
 - tty-roboto
 - Source code pro?
