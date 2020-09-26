@@ -35,3 +35,12 @@
 *.color7:       #E9E9E9
 *.color15:      #e3e3e3
 
+
+! Fonts
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault

@@ -34,6 +34,9 @@ ln -sf $(pwd)/gitconfig $HOME/.gitconfig
 # Install git settings
 ln -sf $(pwd)/zshrc $HOME/.zshrc
 
+# Install font settings
+sudo ln -sf $(pwd)/fonts/local.conf /etc/fonts/local.conf
+
 if [ ! -d $HOME/.sdkman ]; then
   curl -s "https://get.sdkman.io" | bash
 fi
