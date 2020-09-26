@@ -1,3 +1,5 @@
 #!/bin/sh
 xrdb .Xresources
-KDEWM=/usr/bin/i3 startplasma-x11
+setxkbmap no -variant mac_custom
+xset r rate 250 25 
+/usr/bin/i3
