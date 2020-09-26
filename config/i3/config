@@ -175,7 +175,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # gaps
-for_window [class=".*"] border none; border_radius 20
+for_window [class=".*"] border none
 gaps inner 10
 gaps outer 20
 
@@ -201,6 +201,4 @@ no_focus [class="plasmashell" window_type="notification"]
 # Set background 
 exec --no-startup-id feh --bg-scale --randomize ~/Wallpapers/*
 
-# Set keyboard repeat settings
-exec --no-startup-id xset r rate 300 30
 
