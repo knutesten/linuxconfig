@@ -9,5 +9,4 @@
 - dmenu
 - tty-roboto
 - Source code pro?
-- mcpp (C preprocessor is needed to x resources colors are not expanded)
 

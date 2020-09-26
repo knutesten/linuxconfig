@@ -19,6 +19,9 @@ ln -sf $(pwd)/config/i3/config $HOME/.config/i3/config
 mkdir -p $HOME/.config/alacritty
 ln -sf $(pwd)/config/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 
+# Install xresource settings
+ln -sf $(pwd)/Xresources $HOME/.Xresources
+
 # Install xinitrc settings
 ln -sf $(pwd)/xinitrc $HOME/.xinitrc
 
