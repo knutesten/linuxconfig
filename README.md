@@ -1,10 +1,9 @@
-# arch i3 plasma
+# arch i3 
 
 ## Prerequisites
 - feh
 - vim
 - zsh
-- plasma
 - i3-gaps
 - dmenu
 - tty-roboto
