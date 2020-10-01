@@ -3,3 +3,7 @@
 	name = Knut Esten Melandsø Nekså
 [core]
 	editor = vim
+[pull]
+	rebase = true
+[push]
+	default = current
