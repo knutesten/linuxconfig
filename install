@@ -35,8 +35,11 @@ ln -sf $(pwd)/spacemacs $HOME/.spacemacs
 # Install git settings
 ln -sf $(pwd)/gitconfig $HOME/.gitconfig
 
-# Install git settings
+# Install zsh settings
 ln -sf $(pwd)/zshrc $HOME/.zshrc
+
+# Install tmux settings
+ln -sf $(pwd)/tmux.conf $HOME/.tmux.conf
 
 # Install font settings
 sudo ln -sf $(pwd)/fonts/local.conf /etc/fonts/local.conf
