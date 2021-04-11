@@ -9,10 +9,15 @@
 - i3lock
 - i3status
 - dmenu
-- tty-roboto
+- ttf-roboto
 - Source code pro?
-
-### yay
+- xorg
+- xorg-init
+- git
+- openssh
+- rofi
+- alacaritty
+- emacs
+- noto-fonts
 - tex-gyre-fonts
-- otf-libertinus
-- noto-fonts-emoji
+
