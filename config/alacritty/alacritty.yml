@@ -1,18 +1,18 @@
 font:
     normal:
-        family: Source Code Pro
+        family: SourceCodePro
         style: Regular
 
     bold:
-        family: Source Code Pro
+        family: SourceCodePro
         style: Bold
 
     italic:
-        family: Source Code Pro
+        family: SourceCodePro
         style: Italic
 
     bold_italic:
-        family: Source Code Pro
+        family: SourceCodePro
         style: Bold Italic
 
     size: 13
