@@ -178,7 +178,7 @@ gaps inner 10
 gaps outer 20
 
 # Set background 
-exec --no-startup-id feh --bg-scale --randomize ~/Wallpapers/*
+exec --no-startup-id feh --bg-scale --randomize ~/wallpapers/*
 
 bar {
   status_command i3status

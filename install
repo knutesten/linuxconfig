@@ -3,6 +3,9 @@
 # Create .config folder if it does not exist
 mkdir -p $HOME/.config
 
+# Create folder wallpapers if it does not exist
+mkdir -p $HOME/wallpapers
+
 # Disable plasma spash screen
 if [ -f /usr/bin/ksplashqml ]; then
   sudo mv /usr/bin/ksplashqml /usr/bin/ksplashqml.old
@@ -51,3 +54,8 @@ fi
 if [ ! -d $HOME/.oh-my-zsh ]; then
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
+
+if [ ! -d $HOME/.emacs.d ]; then
+  git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+fi
+
